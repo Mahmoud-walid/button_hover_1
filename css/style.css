@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 300%;
+    background: linear-gradient(103deg, #9B51E0 20%, #3081edcc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button{
+    display: block;
+    margin: auto;
+
+}
+
+.parent{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button_1{
+    padding: 10px 32px;
+    border: none;
+    border-radius: 35px;
+    z-index: 10;
+    background-image: linear-gradient(103deg, #9B51E0,  #3081edcc, #9B51E0);
+    background-size: 200%;
+    transition: 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.button_1:hover{
+    background-position: right;
+}
